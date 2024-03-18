@@ -118,13 +118,20 @@ margin-bottom: 10px;
     display: inline-block;
     padding: 10px;
 }
+.link{
+display: flex;
+    text-decoration: none;
+    color: darkblue;
+    flex-direction: column;
+    padding: 10px;
+}
 .button-container:hover {
     background-color: lightblue;
 }
 
 @media screen and (max-width: 600px) {
     .button-container {
-        width: 100%; /* Full width for smaller screens */
+        width: 100%; 
     }
 }
 
@@ -233,6 +240,7 @@ margin: 20px;
 
 .links{
     color: green;
+    
 }
 .contact-form {
     width: 500px;
